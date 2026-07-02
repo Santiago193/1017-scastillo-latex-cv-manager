@@ -1,0 +1,39 @@
+# ─── LaTeX compilación ───────────────────────────────────────
+*.log
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.pdf
+
+# ─── Datos personales ────────────────────────────────────────
+# El molde real con tus datos personales no se sube al repo
+datos/cv-molde.md
+
+# Fotos personales
+cvs/*/images/foto.jpg
+original/images/foto.jpg
+
+# ─── CVs generados (opcional) ────────────────────────────────
+# Descomenta si no quieres subir los CVs adaptados, solo la plantilla base
+# cvs/[0-9][0-9][0-9]*/
+
+# ─── Sistema operativo ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editores ────────────────────────────────────────────────
+.vscode/
+*.swp
+*.swo
+*~
