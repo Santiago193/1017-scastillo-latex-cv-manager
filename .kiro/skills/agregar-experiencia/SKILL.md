@@ -45,10 +45,22 @@ Ejemplo:
 
 Si un campo no aplica, el usuario puede responder "no aplica" o dejarlo en blanco.
 
+### Paso 3b — Detectar lenguajes/tecnologías nuevas (solo para Proyecto y Experiencia laboral)
+
+Después de recopilar el campo **"Tecnologías usadas"** en un Proyecto o una Experiencia laboral, compara los lenguajes y tecnologías mencionados contra los que ya figuran en la sección **Habilidades técnicas** del archivo `datos/cv-molde.md`.
+
+- Si detectas tecnologías **que no están registradas** en las habilidades, pregunta al usuario:
+  > "Mencionaste [tecnología X, Y, Z] que no aparecen en tus habilidades técnicas. ¿Quieres agregarlas? Si es así, ¿en qué categoría van? (Dominio principal / Bases de datos / Servidores & Deploy / DevOps & Herramientas / Frontend / Otros)"
+
+- Espera la respuesta. Si el usuario confirma, incorpora las nuevas tecnologías a la subcategoría indicada dentro de la sección de Habilidades técnicas en `datos/cv-molde.md`, concatenando al contenido existente de ese campo (no reemplazando lo que ya hay).
+
+- Si el usuario dice que no quiere agregarlas, continúa sin modificar las habilidades.
+
 ### Paso 4 — Agregar la entrada al archivo
 
 - Una vez recopilados todos los datos, agrega el nuevo bloque al final de la sección correspondiente en `datos/cv-molde.md`.
 - Usa el formato exacto del mini-molde, numerando el bloque de forma incremental (Proyecto 3, Experiencia 3, etc.).
+- Si en el Paso 3b se acordó agregar habilidades, actualiza también esa sección en el mismo guardado.
 - Confirma al usuario:
   > "✓ Agregado correctamente a `datos/cv-molde.md`. ¿Quieres agregar algo más?"
 

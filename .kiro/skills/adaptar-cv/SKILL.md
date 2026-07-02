@@ -42,8 +42,10 @@ Espera la respuesta del usuario antes de continuar.
 
 Con la oferta recibida, edita el archivo `cvs/<nueva-carpeta>/Minimal-CV.tex` aplicando estas reglas **usando solo la información disponible en `datos/cv-molde.md`** — no inventar ni agregar información falsa:
 
+- **Requisitos ausentes en el molde:** Si la oferta pide una habilidad, tecnología o tipo de experiencia que **no aparece en el molde**, no la incluyas ni la menciones. En su lugar, identifica qué puntos fuertes del candidato son más cercanos o complementarios a ese requisito y dales mayor prominencia en el perfil profesional o en la sección de habilidades.
+
 - **Título / Enfoque (header):** Ajusta el título debajo del nombre para que coincida con el rol buscado. Usa términos de la oferta si el perfil lo respalda.
-- **Perfil Profesional:** Reescribe el párrafo destacando las tecnologías y habilidades que la oferta menciona y que el candidato posee. Usa palabras clave de la oferta.
+- **Perfil Profesional:** Reescribe el párrafo destacando las tecnologías y habilidades que la oferta menciona y que el candidato posee. Usa palabras clave de la oferta. **Escríbelo siempre en primera persona o en tono de habilidades directas** (ej: "Desarrollo APIs REST con Spring Boot…", "Implemento frontends en Angular…") — nunca en tercera persona ("Desarrollador que trabaja con…", "tiene experiencia en…", "construye…").
 - **Habilidades Técnicas:** Reordena las habilidades poniendo primero las más relevantes para la oferta. No elimines habilidades, solo reordena y reorganiza por relevancia.
 - **Experiencia:** Si hay experiencias, resalta en las descripciones los aspectos más alineados con la oferta (sin cambiar hechos, solo énfasis).
 - **Proyectos:** Si hay proyectos relevantes para la oferta, ponlos primero. Si algún proyecto es claramente irrelevante y hay poco espacio, puede omitirse (solo si hay más de 2 proyectos).
